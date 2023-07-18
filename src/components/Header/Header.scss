@@ -1,0 +1,14 @@
+.header {
+  height: 50px;
+  background-color: palegreen;
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+
+  a {
+    text-decoration: none;
+  }
+  p {
+    cursor: pointer;
+  }
+}

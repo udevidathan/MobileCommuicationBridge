@@ -1,0 +1,17 @@
+.shell {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .mainContent {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+
+    .contents {
+      padding: 16px;
+      overflow: auto;
+      flex: 1;
+    }
+  }
+}
